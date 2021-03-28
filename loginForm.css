@@ -1,0 +1,60 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2010/06/vector-graphic/vector-graphic-design-8.jpg) 
+                    no-repeat;
+    background-size: cover;
+}
+.formBody {
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(241, 132, 8);
+
+   
+}
+ h2 {
+    color: rgb(17, 17, 16);
+    float: left;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-bottom: 5px solid rgb(245, 93, 6);
+    padding: 2px 0;
+}
+i {
+    line-height: 10px;
+}
+.textBox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 10px;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-bottom: 2px dotted rgb(245, 93, 6);
+}
+input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 40%;
+    font-size: 15px;
+    color: white;
+    float: left;
+}
+::placeholder{
+    color: #f3ecaf;
+}
+.btn {
+    width: 100%;
+    border: 2px solid rgb(245, 93, 6);
+    color: #f3ecaf;
+    padding: 7px;
+}
+.btn:hover {
+    background: #e7f088;
+    color:rgb(245, 93, 6);
+    border: 2px solid black;
+}
