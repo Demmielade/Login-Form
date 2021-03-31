@@ -5,6 +5,8 @@ body {
     background: url(https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2010/06/vector-graphic/vector-graphic-design-8.jpg) 
                     no-repeat;
     background-size: cover;
+    min-height: 100vh;
+
 }
 .formBody {
     position: absolute;
